@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cccccc"/>
+
+    <com.android.hcbd.aws.widget.AlphaIndicator
+        android:id="@+id/alphaIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:orientation="horizontal">
+        <com.android.hcbd.aws.widget.AlphaView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            app:av_tabIconNormal="@drawable/ic_tab_home"
+            app:av_tabIconSelected="@drawable/ic_tab_home_current"
+            app:av_tabText="首页"
+            app:av_tabTextSize="12sp"
+            app:av_textColorNormal="#999999"
+            app:av_textColorSelected="#1ca0d8"/>
+        <com.android.hcbd.aws.widget.AlphaView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            app:av_tabIconNormal="@drawable/ic_tab_precheck"
+            app:av_tabIconSelected="@drawable/ic_tab_precheck_current"
+            app:av_tabText="预检历史"
+            app:av_tabTextSize="12sp"
+            app:av_textColorNormal="#999999"
+            app:av_textColorSelected="#1ca0d8"/>
+        <com.android.hcbd.aws.widget.AlphaView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            app:av_tabIconNormal="@drawable/ic_tab_accuratecheck"
+            app:av_tabIconSelected="@drawable/ic_tab_accuratecheck_current"
+            app:av_tabText="精检历史"
+            app:av_tabTextSize="12sp"
+            app:av_textColorNormal="#999999"
+            app:av_textColorSelected="#1ca0d8"/>
+        <com.android.hcbd.aws.widget.AlphaView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            app:av_tabIconNormal="@drawable/ic_tab_setting"
+            app:av_tabIconSelected="@drawable/ic_tab_setting_current"
+            app:av_tabText="设置"
+            app:av_tabTextSize="12sp"
+            app:av_textColorNormal="#999999"
+            app:av_textColorSelected="#1ca0d8"/>
+    </com.android.hcbd.aws.widget.AlphaIndicator>
+
+</LinearLayout>

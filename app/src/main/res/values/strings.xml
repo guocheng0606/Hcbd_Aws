@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">高速超限</string>
+    <string name="input_username">请输入用户名</string>
+    <string name="input_password">请输入密码</string>
+    <!--首页-->
+    <string name="tab_home_text">首页</string>
+    <string name="tab_precheck_text">预检历史</string>
+    <string name="tab_accuratecheck_text">精检历史</string>
+    <string name="tab_setting_text">设置</string>
+    <string name="precheck">预检</string>
+    <string name="accuratecheck">精检</string>
+    <string name="vodeo_pre_image">视频实时图像</string>
+    <string name="pre_check_info">预检信息</string>
+    <string name="accurate_check_info">精检信息</string>
+    <string name="time">时间</string>
+    <string name="axles_num">轴数</string>
+    <string name="input_axles_num">请输入轴数</string>
+    <string name="weight">总重(吨)</string>
+    <string name="over_percent">超载比例</string>
+    <string name="initial_survey">初检</string>
+    <string name="recheck">复检</string>
+    <string name="print">打印</string>
+    <string name="pass">通行</string>
+    <string name="initial_survey_time">初检时间</string>
+    <string name="limit_weight">限重(吨)</string>
+    <string name="initial_survey_weight">初检总重(吨)</string>
+
+    <string name="weight_info">重量信息</string>
+    <string name="axle_type">车轴类型</string>
+    <string name="select_axle_type">请选择车轴类型</string>
+    <string name="total_weight">车货总量</string>
+    <string name="input_total_weight">请输入车货总量</string>
+    <string name="total_limit_weight">总重限重</string>
+    <string name="input_total_limit_weight">请输入总重限重</string>
+    <string name="total_over_weight">总重超重</string>
+    <string name="input_total_over_weight">请输入总重超重</string>
+    <string name="goods_class">货物类别</string>
+    <string name="input_goods_class">请输入或选择货物类别</string>
+    <string name="license_plate">车牌号码</string>
+    <string name="plate_number">车牌</string>
+    <string name="input_plate_number">请输入车牌</string>
+    <string name="input_license_plate">请输入车牌号码</string>
+    <string name="driver">驾驶员</string>
+    <string name="input_driver">请输入驾驶员</string>
+
+    <string name="clear">清除</string>
+
+    <string name="finish_time">截止时间</string>
+    <string name="select_finish_time">请选择截止时间</string>
+    <string name="isover">是否超限</string>
+    <string name="ok">确定</string>
+    <string name="cancle">取消</string>
+    <string name="begin_time">开始时间</string>
+    <string name="select_begin_time">请选择开始时间</string>
+    <string name="end_time">结束时间</string>
+    <string name="select_end_time">请选择结束时间</string>
+    <string name="isrecheck">是否复检</string>
+    <string name="parameter_setting">参数设置</string>
+    <string name="pre_parameter">预检参数</string>
+    <string name="car_type_info">车型信息</string>
+    <string name="update_password">修改密码</string>
+    <string name="led_show">LED显示</string>
+    <string name="ip_address">服务器地址</string>
+    <string name="ip_address_demo">服务器地址（例如：192.168.0.1：8080）</string>
+    <string name="input_ip_address">请输入服务器地址</string>
+    <string name="logout">退出登录</string>
+    <string name="to">至</string>
+
+    <string name="code">编码</string>
+    <string name="input_code">请输入编码</string>
+    <string name="name">名称</string>
+    <string name="input_name">请输入名称</string>
+    <string name="value">数值</string>
+    <string name="input_value">请输入数值</string>
+    <string name="state">状态</string>
+    <string name="enable">启用</string>
+    <string name="freeze">冻结</string>
+    <string name="close">关闭</string>
+    <string name="complete">完成</string>
+
+    <string name="search_info">查询条件</string>
+    <string name="lane">车道</string>
+    <string name="input_lane">请输入车道</string>
+    <string name="goods">货物</string>
+    <string name="input_goods">请输入货物</string>
+    <string name="tonnage_range">计重吨位范围</string>
+    <string name="input_tonnage_range">请输入计重吨位范围</string>
+
+    <string name="show_content">显示内容</string>
+    <string name="content">内容</string>
+    <string name="input_content">请输入内容</string>
+    <string name="car_type">车型</string>
+    <string name="input_car_type">请输入车型</string>
+    <string name="pre_check_value">预检提示值</string>
+    <string name="input_pre_check_value">请输入预检提示值</string>
+    <string name="inspection_limit">精检限制</string>
+    <string name="input_inspection_limit">请输入精检限制</string>
+
+    <string name="check_yes">是</string>
+    <string name="check_no">否</string>
+
+    <string name="vehicle_flow_analysis">车流量分析</string>
+    <string name="contrast_preview">和预检对比</string>
+    <string name="arrival_analysis">进站分析</string>
+
+    <string name="time_interval">时区间</string>
+    <string name="day_interval">日区间</string>
+    <string name="week_interval">周区间</string>
+    <string name="month_interval">月区间</string>
+
+    <string name="hello_blank_fragment">请输入</string>
+    <string name="str_history">历史记录</string>
+</resources>
